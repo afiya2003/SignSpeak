@@ -1,53 +1,61 @@
-SignSpeak – Two-Way Sign Language Interpretation System
-Overview
+**SignSpeak – Two-Way Sign Language Interpretation System**
+**
+Overview**
 
 SignSpeak is an AI-driven assistive communication system designed to reduce communication barriers for individuals with hearing and speech impairments. The project focuses on real-time sign language interpretation using computer vision and deep learning techniques to convert hand gestures into meaningful text output.
 
 The system utilizes MediaPipe for hand landmark detection, OpenCV for image processing, and LSTM-based sequence modeling for gesture recognition. To further enhance accessibility and user interaction, a visual keyboard with word suggestions was integrated into the system.
 
-Key Features
-Real-time sign language gesture recognition
-Hand landmark detection using MediaPipe
-Deep learning-based gesture prediction using LSTM
-Custom dataset creation and management
-Visual keyboard with intelligent word suggestions
-Accessibility-focused and user-friendly interface
-AI-powered assistive communication support
-Technologies Used
-Python
-OpenCV
-MediaPipe
-TensorFlow / Keras
-NumPy
-Pandas
-Deep Learning (LSTM)
-System Workflow
+**Key Features**
+
+1. Real-time sign language gesture recognition
+2. Hand landmark detection using MediaPipe
+3. Deep learning-based gesture prediction using LSTM
+4. Custom dataset creation and management
+5. Visual keyboard with intelligent word suggestions
+6. Accessibility-focused and user-friendly interface
+7. AI-powered assistive communication support
+   
+**Technologies Used**
+. Python
+. OpenCV
+. MediaPipe
+. TensorFlow / Keras
+. NumPy
+. Pandas
+. Deep Learning (LSTM)
+
+**System Workflow**
 Hand gestures are captured through a webcam.
 MediaPipe extracts hand landmark coordinates from video frames.
 Landmark sequences are processed and passed to the trained LSTM model.
 The model predicts the corresponding sign language gesture.
 Predicted text is displayed to assist communication.
 Word suggestions and visual keyboard features improve usability and interaction.
-Dataset
+
+**Dataset**
 
 A custom dataset was designed and managed for gesture recognition training. The dataset consists of hand landmark sequences collected for different sign language gestures to improve prediction accuracy and model performance.
 
-Impact
+**Impact**
 
 SignSpeak aims to promote inclusive communication by helping bridge the gap between sign language users and non-sign language users through intelligent assistive technology. The project demonstrates how AI and computer vision can be applied to improve accessibility and real-world communication support.
 
-Achievements
+**Achievements**
+
 Received the Best Paper Award at the International Conference on Computational Intelligence and Mathematical Applications 2026.
 Submitted for Springer conference proceedings at Sejong University.
+
 Future Enhancements
 Expansion of gesture vocabulary
 Dynamic sentence generation
-Speech-to-sign translation
-Mobile application deployment
 Enhanced model accuracy using advanced architectures
+
 License
 
 This project is developed for academic and research purposes.
+
+<br>
 <img width="833" height="444" alt="image" src="https://github.com/user-attachments/assets/28cc38c7-156a-46d1-a4b9-de85efe9676f" />
 
 <img width="826" height="406" alt="image" src="https://github.com/user-attachments/assets/bc0b5b95-79b4-4d14-913d-a4e5a3c04747" />
